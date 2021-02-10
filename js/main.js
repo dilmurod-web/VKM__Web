@@ -1,5 +1,5 @@
 let finder=document.querySelector('.search_music')
-let input=document.querySelector('.in')
+let input=document.querySelector('.int')
 let list=document.querySelector('.music_list')
 async function getData (value) {
 
