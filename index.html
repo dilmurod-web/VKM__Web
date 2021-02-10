@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="./style/style.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
-<body>
-	<section class="search-sec">
-		<form class="search-sec__form">
-			<input class="search-sec__form__int" type="search" name="music-search" placeholder="Enter the name of the music">
-			<button class="search-sec__form__btn btn btn-outline-warning">Search</button>
-		</form>
-		<ul class="search-sec__list">
+<body class="body">
+    <div class="search-list">
+        <div class="search">
+            <input type = search class = "in" required>
+            <button class = "btn btn-outline-warning search_music">Search</button>
+        </div>
+    </div>
+    <div class = "list">
+        <ul class = "music_list">
 
-		</ul>
-	</section>
-
-	<!-- JS -->
-
+        </ul>
+    </div>
+    
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-	<script src="js/main.js" type="text/javascript"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

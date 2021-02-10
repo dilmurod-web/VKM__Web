@@ -5,36 +5,36 @@
 	list-style: none;
 	text-decoration: none;
 }
-body{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
+.body{
 	background-color: #333;
-}
-.search-sec{
+	min-height: 100vh;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
 	justify-content: center;
-	width: 40%;
-	box-shadow: 0px 0px 10px 5px gold;
-	padding: 20px;
+	align-items: center;
+	overflow-y: scroll;
 }
-.search-sec__form{
-	width: 100%;
+.search-list{
+	margin: 35px;
+	padding: 10px;
+	box-shadow: 0px 0px 15px 1px gold;
+	width: 455px;
+}
+.search{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.search-sec__form__int{
+.in{
 	padding: 5px 10px;
-	font-size: 18px;
-	background-color: #323;
-	border: 1px solid gold;
-	border-radius: 10px;
-	outline: none;
-	color: yellow;
 }
-.search-sec__form__btn{
-	font-weight: bold;
+.music_list{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 30px 40px;
+}
+.music_item{
+	margin: 15px 10px;
 }
